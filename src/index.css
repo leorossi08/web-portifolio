@@ -64,26 +64,20 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
-    --foreground: 222 47% 11%;
-
-    --card: 0 0% 100%;
-
+    --background: 45 35% 95%;        /* A soft, creamy off-white */
+    --foreground: 45 15% 20%;        /* A darker, warmer gray for text */
+    --card: 45 25% 98%;              /* A slightly brighter cream for cards */
     --primary: 250 47% 60%;
     --primary-foreground: 210 40% 98%;
-
-    --border: 214 32% 91%;
+    --border: 45 20% 90%;            /* A matching border color */
   }
 
   .dark {
     --background: 222 47% 4%;
     --foreground: 213 31% 91%;
-
     --card: 222 47% 8%;
-
     --primary: 250 65% 65%;
     --primary-foreground: 213 31% 91%;
-
     --border: 217 33% 20%;
   }
 

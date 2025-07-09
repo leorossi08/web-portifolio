@@ -1,42 +1,37 @@
 import { Briefcase, Code, Database } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export const AboutSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="py-24 px-4 relative">
       {" "}
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          About <span className="text-primary"> Me</span>
+          {t('aboutMe').split(' ')[0]} <span className="text-primary"> {t('aboutMe').split(' ')[1]}</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             {/* --- Updated Main Bio Text --- */}
             <h3 className="text-2xl font-semibold">
-              Driving Innovation with Automated Systems and Data Intelligence
+              {t('aboutTitle')}
             </h3>
 
             <p className="text-muted-foreground">
-              I engineer forward-thinking, automated solutions designed for
-              scalability and efficiency. As a Computer Engineering student, I
-              bridge the gap between ambitious business goals and concrete
-              technical execution, with a keen focus on creating technology
-              that solves meaningful challenges.
+              {t('aboutBio1')}
             </p>
 
             <p className="text-muted-foreground">
-              My approach covers the full product journey, from initial concept
-              to final deployment. I have a strong ability to unlock the
-              potential hidden within data to inform strategy and drive
-              results. I thrive in agile environments, committed to delivering
-              high-impact solutions that push boundaries.
+              {t('aboutBio2')}
             </p>
             {/* --- End of Main Bio Text --- */}
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
                 {" "}
-                Get In Touch
+                {t('getInTouch')}
               </a>
 
               <a
@@ -44,7 +39,7 @@ export const AboutSection = () => {
                 download="LeonardoRossi_CV.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download CV
+                {t('downloadCv')}
               </a>
             </div>
           </div>
@@ -57,10 +52,9 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Software Engineering</h4>
+                  <h4 className="font-semibold text-lg">{t('softwareEngineering')}</h4>
                   <p className="text-muted-foreground">
-                    Engineering scalable and efficient software solutions to
-                    meet dynamic business needs.
+                    {t('softwareEngineeringDesc')}
                   </p>
                 </div>
               </div>
@@ -71,10 +65,9 @@ export const AboutSection = () => {
                   <Database className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Data Intelligence</h4>
+                  <h4 className="font-semibold text-lg">{t('dataIntelligence')}</h4>
                   <p className="text-muted-foreground">
-                    Unlocking strategic insights by transforming complex data
-                    into clear, actionable intelligence.
+                    {t('dataIntelligenceDesc')}
                   </p>
                 </div>
               </div>
@@ -86,10 +79,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Product Leadership</h4>
+                  <h4 className="font-semibold text-lg">{t('productLeadership')}</h4>
                   <p className="text-muted-foreground">
-                    Guiding projects from concept to completion with agile
-                    methodologies to ensure high-impact results.
+                    {t('productLeadershipDesc')}
                   </p>
                 </div>
               </div>

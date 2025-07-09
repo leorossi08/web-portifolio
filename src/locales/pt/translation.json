@@ -1,0 +1,33 @@
+{
+  "greeting": "Olá, eu sou o",
+  "name": "Leonardo",
+  "lastName": "Rossi",
+  "description": "Eu construo software inteligente com foco em automação e ciência de dados. Aplico minhas habilidades em desenvolvimento de software e Machine Learning para criar soluções eficientes que enfrentam desafios complexos do mundo real.",
+  "viewWork": "Veja meu trabalho",
+  "scroll": "Role para baixo",
+  "aboutMe": "Sobre Mim",
+  "aboutTitle": "Impulsionando a Inovação com Sistemas Automatizados e Inteligência de Dados",
+  "aboutBio1": "Eu projeto soluções inovadoras e automatizadas, pensadas para escalabilidade e eficiência. Como estudante de Engenharia de Computação, conecto metas de negócios ambiciosas à execução técnica concreta, com um foco especial em criar tecnologia que resolve desafios significativos.",
+  "aboutBio2": "Minha abordagem cobre toda a jornada do produto, desde o conceito inicial até a implantação final. Tenho uma forte capacidade de extrair o potencial oculto nos dados para informar estratégias e impulsionar resultados. Eu prospero em ambientes ágeis, comprometido em entregar soluções de alto impacto que superam limites.",
+  "getInTouch": "Entre em Contato",
+  "downloadCv": "Baixar CV",
+  "softwareEngineering": "Engenharia de Software",
+  "softwareEngineeringDesc": "Engenharia de soluções de software escaláveis e eficientes para atender às necessidades dinâmicas de negócios.",
+  "dataIntelligence": "Inteligência de Dados",
+  "dataIntelligenceDesc": "Desbloqueando insights estratégicos ao transformar dados complexos em inteligência clara e acionável.",
+  "productLeadership": "Liderança de Produto",
+  "productLeadershipDesc": "Guiando projetos do conceito à conclusão com metodologias ágeis para garantir resultados de alto impacto.",
+  "mySkills": "Minhas Habilidades",
+  "featuredProjects": "Alguns Projetos",
+  "projectsDescription": "Aqui estão alguns dos projetos e experiências profissionais que moldaram minhas habilidades.",
+  "checkGithub": "Veja meu Github",
+  "contactTitle": "Entre em Contato",
+  "contactDescription": "Tem um projeto em mente ou quer colaborar? Sinta-se à vontade para entrar em contato. Estou sempre aberto para discutir novas oportunidades.",
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "contact": "Contato"
+  }
+}

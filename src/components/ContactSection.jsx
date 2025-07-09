@@ -1,6 +1,9 @@
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export const ContactSection = () => {
+  const { t } = useTranslation();
+
   const contactInfo = [
     {
       icon: <Mail className="h-7 w-7 text-primary" />,
@@ -33,12 +36,11 @@ export const ContactSection = () => {
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          Get In <span className="text-primary"> Touch</span>
+          {t('contactTitle').split(' ')[0]} <span className="text-primary"> {t('contactTitle').split(' ')[1]} {t('contactTitle').split(' ')[2]}</span>
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Have a project in mind or want to collaborate? Feel free to reach out.
-          I'm always open to discussing new opportunities.
+          {t('contactDescription')}
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

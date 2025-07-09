@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { useTranslation } from "react-i18next";
 
 const skills = [
   // Data Science & AI
@@ -47,6 +48,7 @@ const categories = [
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
+    const { t } = useTranslation();
 
   const filteredSkills = skills.filter(
     (skill) => activeCategory === "all" || skill.category === activeCategory
@@ -56,7 +58,7 @@ export const SkillsSection = () => {
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          My <span className="text-primary"> Skills</span>
+          {t('mySkills').split(' ')[0]} <span className="text-primary"> {t('mySkills').split(' ')[1]}</span>
         </h2>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">

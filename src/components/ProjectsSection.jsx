@@ -1,4 +1,5 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 
 const projects = [
@@ -30,16 +31,17 @@ const projects = [
 ];
 
 export const ProjectsSection = () => {
+    const { t } = useTranslation();
+
   return (
     <section id="projects" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          Featured <span className="text-primary"> Projects </span>
+          {t('featuredProjects').split(' ')[0]} <span className="text-primary"> {t('featuredProjects').split(' ')[1]} </span>
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of the projects and professional experiences that have
-          shaped my skills.
+          {t('projectsDescription')}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -113,7 +115,7 @@ export const ProjectsSection = () => {
             href="https://github.com/leorossi08"
             rel="noopener noreferrer"
           >
-            Check My Github <ArrowRight size={16} />
+            {t('checkGithub')} <ArrowRight size={16} />
           </a>
         </div>
       </div>

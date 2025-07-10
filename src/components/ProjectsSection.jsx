@@ -37,6 +37,14 @@ const projects = [
     tags: ["Java", "SpringBoot", "HTML", "CSS", "MySQL", "API"],
     githubUrl: "https://github.com/leorossi08/BlockbusterCRUD-SpringBoot"
   },
+  {
+    id: 5,
+    title: "Rossi Prunning Technology",
+    description:
+      "Developed a web page for a family business, showecasing services and products. A update with react is coming soon.",
+    image: "/projects/project5.jpg",
+    tags: ["HTML", "CSS"],
+  }
   
 ];
 

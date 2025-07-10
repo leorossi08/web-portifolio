@@ -28,6 +28,16 @@ const projects = [
     image: "/projects/project3.png", 
     tags: ["Agile Method", "Management", "Product Owner"],
   },
+  {
+    id: 4,
+    title: "BlockBuster CRUD Simulation",
+    description:
+      "A simulated CRUD application for a movie rental service, showcasing full-stack development skills.",
+    image: "/projects/project4.png",
+    tags: ["Java", "SpringBoot", "HTML", "CSS", "MySQL", "API"],
+    githubUrl: "https://github.com/leorossi08/BlockbusterCRUD-SpringBoot"
+  },
+  
 ];
 
 export const ProjectsSection = () => {

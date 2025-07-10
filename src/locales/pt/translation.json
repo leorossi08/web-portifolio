@@ -20,6 +20,32 @@
   "mySkills": "Minhas Habilidades",
   "featuredProjects": "Alguns Projetos",
   "projectsDescription": "Aqui estão alguns dos projetos e experiências profissionais que moldaram minhas habilidades.",
+  "projectList": [
+    {
+      "id": 1,
+      "title": "Hyundai - Inovação na Fábrica Inteligente",
+      "description": "Desenvolvi modelos preditivos de Machine Learning para detecção de anomalias, contribuindo para a manutenção preventiva.",
+      "tags": ["Python", "Machine Learning", "Scikit-learn", "IA"]
+    },
+    {
+      "id": 2,
+      "title": "Análise do Campeonato Brasileiro",
+      "description": "Dashboard interativo que visualiza posse de bola, passes e contra-ataques do Campeonato Brasileiro.",
+      "tags": ["Python", "Pandas", "Streamlit", "Data Viz"]
+    },
+    {
+      "id": 3,
+      "title": "Cati Jr. - Membro Comercial",
+      "description": "Experiência na liderança de projetos utilizando metodologias ágeis, com envolvimento direto no relacionamento com o cliente, levantamento de requisitos e documentação.",
+      "tags": ["Método Ágil", "Gestão", "Product Owner"]
+    },
+    {
+      "id": 4,
+      "title": "Simulação de CRUD da BlockBuster",
+      "description": "Uma aplicação CRUD simulada para um serviço de locadora de filmes, demonstrando habilidades de desenvolvimento full-stack.",
+      "tags": ["Java", "SpringBoot", "HTML", "CSS", "MySQL", "API"]
+    }
+  ],
   "checkGithub": "Veja meu Github",
   "contactTitle": "Entre em Contato",
   "contactDescription": "Tem um projeto em mente ou quer colaborar? Sinta-se à vontade para entrar em contato. Estou sempre aberto para discutir novas oportunidades.",

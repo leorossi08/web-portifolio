@@ -20,6 +20,32 @@
   "mySkills": "My Skills",
   "featuredProjects": "Featured Projects",
   "projectsDescription": "Here are some of the projects and professional experiences that have shaped my skills.",
+  "projectList": [
+    {
+      "id": 1,
+      "title": "Hyundai - Smart Factory Innovation",
+      "description": "Developed predictive Machine Learning models for anomaly detection, contributing to preventive maintenance.",
+      "tags": ["Python", "Machine Learning", "Scikit-learn", "AI"]
+    },
+    {
+      "id": 2,
+      "title": "Brazilian Championship Analytics",
+      "description": "Interactive dashboard visualizing ball possession, passes, and counterattacks from the Brazilian Championship.",
+      "tags": ["Python", "Pandas", "Streamlit", "Data Viz"]
+    },
+    {
+      "id": 3,
+      "title": "Cati Jr. - Commercial Member",
+      "description": "Experience in leading projects using agile methodologies, with direct involvement in client relations, requirements gathering and documentation.",
+      "tags": ["Agile Method", "Management", "Product Owner"]
+    },
+    {
+      "id": 4,
+      "title": "BlockBuster CRUD Simulation",
+      "description": "A simulated CRUD application for a movie rental service, showcasing full-stack development skills.",
+      "tags": ["Java", "SpringBoot", "HTML", "CSS", "MySQL", "API"]
+    }
+  ],
   "checkGithub": "Check My Github",
   "contactTitle": "Get In Touch",
   "contactDescription": "Have a project in mind or want to collaborate? Feel free to reach out. I'm always open to discussing new opportunities.",

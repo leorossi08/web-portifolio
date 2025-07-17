@@ -1,54 +1,69 @@
 {
-  "greeting": "Olá, eu sou o",
+  "greeting": "Olá, eu sou",
   "name": "Leonardo",
   "lastName": "Rossi",
-  "description": "Eu construo software inteligente com foco em automação e ciência de dados. Aplico minhas habilidades em desenvolvimento de software e Machine Learning para criar soluções eficientes que enfrentam desafios complexos do mundo real.",
-  "viewWork": "Veja meu trabalho",
+  "description": "Sou estudante de Engenharia da Computação na UFSCar (com graduação prevista para dezembro de 2026) e apaixonado por desenvolvimento de software, automação e ciência de dados. Aplico minhas habilidades em engenharia de software e na resolução de desafios complexos do mundo real, especialmente sob a perspectiva de Ciência de Dados. Minha ambição e vontade de aprender me levam a abraçar novas tecnologias e desafios onde posso contribuir e crescer. Confira alguns dos meus trabalhos!",
+  "viewWork": "Veja Meus Trabalhos",
   "scroll": "Role para baixo",
   "aboutMe": "Sobre Mim",
-  "aboutTitle": "Impulsionando a Inovação com Sistemas Automatizados e Inteligência de Dados",
-  "aboutBio1": "Eu projeto soluções inovadoras e automatizadas, pensadas para escalabilidade e eficiência. Como estudante de Engenharia de Computação, conecto metas de negócios ambiciosas à execução técnica concreta, com um foco especial em criar tecnologia que resolve desafios significativos.",
-  "aboutBio2": "Minha abordagem cobre toda a jornada do produto, desde o conceito inicial até a implantação final. Tenho uma forte capacidade de extrair o potencial oculto nos dados para informar estratégias e impulsionar resultados. Eu prospero em ambientes ágeis, comprometido em entregar soluções de alto impacto que superam limites.",
+  "aboutTitle": "Um Pouco da Minha Jornada",
+  "aboutBio1": "Construí minha base profissional na Cati Jr., liderando projetos de software com metodologias ágeis, desde o contato com o cliente até o desenvolvimento final. Essa experiência foi muito gratificante, pois contribuí para projetos que representaram até 35% da receita da empresa. A partir disso, meu foco evoluiu para a ciência de dados. Aprofundei essa paixão em um grupo de estudos de ciência de dados na UFSCar focado em PNL e como pesquisador em iniciação científica na USP, onde apliquei análise de dados para prever necessidades estruturais em túneis.",
+  "aboutBio2": "Essa jornada culminou em um estágio de verão na equipe de Inovação da Smart Factory da Hyundai. Nesse ambiente dinâmico, não apenas apliquei minhas habilidades técnicas desenvolvendo modelos preditivos de IA e Machine Learning para detecção de anomalias, mas também aprimorei habilidades interpessoais cruciais, como falar em público e trabalhar em equipe. Olhando para o futuro, estou animado para me juntar à equipe de Automação do BTG Pactual, onde pretendo desenvolver novas competências e contribuir para projetos inovadores no setor de fintech.",
   "getInTouch": "Entre em Contato",
-  "downloadCv": "Baixar CV",
+  "downloadCv": "Baixar Currículo",
   "softwareEngineering": "Engenharia de Software",
-  "softwareEngineeringDesc": "Engenharia de soluções de software escaláveis e eficientes para atender às necessidades dinâmicas de negócios.",
-  "dataIntelligence": "Inteligência de Dados",
-  "dataIntelligenceDesc": "Desbloqueando insights estratégicos ao transformar dados complexos em inteligência clara e acionável.",
+  "softwareEngineeringDesc": "Especializado em desenvolvimento full-stack, construo soluções de software escaláveis e eficientes usando Java (SpringBoot), Python (Django), React e bancos de dados como PostgreSQL e MySQL.",
+  "dataIntelligence": "Ciência de Dados",
+  "dataIntelligenceDesc": "Eu extraio insights estratégicos de dados usando Machine Learning e IA. Minha experiência inclui Python, Pandas, Scikit-learn e PyTorch para construir modelos preditivos e soluções orientadas a dados.",
   "productLeadership": "Liderança de Produto",
-  "productLeadershipDesc": "Guiando projetos do conceito à conclusão com metodologias ágeis para garantir resultados de alto impacto.",
+  "productLeadershipDesc": "Como Product Owner, guio projetos ágeis do conceito à conclusão. Gerencio todo o ciclo de vida do produto, desde o relacionamento com o cliente e levantamento de requisitos até o desenvolvimento e a entrega, garantindo resultados de alto impacto.",
   "mySkills": "Minhas Habilidades",
-  "featuredProjects": "Alguns Projetos",
+  "featuredProjects": "Algumas Experiências",
   "projectsDescription": "Aqui estão alguns dos projetos e experiências profissionais que moldaram minhas habilidades.",
   "projectList": [
     {
       "id": 1,
-      "title": "Hyundai - Inovação na Fábrica Inteligente",
-      "description": "Desenvolvi modelos preditivos de Machine Learning para detecção de anomalias, contribuindo para a manutenção preventiva.",
+      "title": "Hyundai - Inovação na Smart Factory",
+      "description": "Desenvolvi modelos preditivos de Machine Learning para detecção de anomalias, contribuindo para a manutenção preditiva.",
       "tags": ["Python", "Machine Learning", "Scikit-learn", "IA"]
     },
     {
       "id": 2,
       "title": "Análise do Campeonato Brasileiro",
-      "description": "Dashboard interativo que visualiza posse de bola, passes e contra-ataques do Campeonato Brasileiro.",
+      "description": "Dashboard interativo visualizando posse de bola, passes e contra-ataques do Campeonato Brasileiro.",
       "tags": ["Python", "Pandas", "Streamlit", "Data Viz"]
     },
     {
       "id": 3,
-      "title": "Cati Jr. - Membro Comercial",
-      "description": "Experiência na liderança de projetos utilizando metodologias ágeis, com envolvimento direto no relacionamento com o cliente, levantamento de requisitos e documentação.",
-      "tags": ["Método Ágil", "Gestão", "Product Owner"]
+      "title": "Cati Jr. - Liderança de Projetos",
+      "description": "Experiência na liderança de projetos com metodologias ágeis, com atuação direta no relacionamento com clientes, levantamento e documentação de requisitos.",
+      "tags": ["Métodos Ágeis", "Gestão", "Product Owner"]
     },
     {
       "id": 4,
       "title": "Simulação de CRUD da BlockBuster",
-      "description": "Uma aplicação CRUD simulada para um serviço de locadora de filmes, demonstrando habilidades de desenvolvimento full-stack.",
+      "description": "Uma aplicação CRUD simulada para um serviço de locação de filmes, demonstrando habilidades de desenvolvimento full-stack.",
       "tags": ["Java", "SpringBoot", "HTML", "CSS", "MySQL", "API"]
+    },
+    {
+      "id": 5,
+      "title": "Website de Empresa Familiar",
+      "description": "Desenvolvi uma página web para uma empresa familiar, apresentando serviços e produtos. Uma atualização com React está a caminho.",
+      "image": "/projects/project5.jpg",
+      "tags": ["HTML", "CSS"]
+    },
+    {
+      "id": 6,
+      "title": "Site de Portfólio",
+      "description": "Literalmente o site que você está vendo agora, construído com React e Tailwind CSS.",
+      "image": "/projects/project6.png",
+      "tags": ["React", "Tailwind CSS", "JavaScript"],
+      "githubUrl": "https://github.com/leorossi08/web-portifolio"
     }
   ],
   "checkGithub": "Veja meu Github",
   "contactTitle": "Entre em Contato",
-  "contactDescription": "Tem um projeto em mente ou quer colaborar? Sinta-se à vontade para entrar em contato. Estou sempre aberto para discutir novas oportunidades.",
+  "contactDescription": "Tem um projeto em mente ou quer colaborar? Sinta-se à vontade para entrar em contato. Estou sempre aberto a discutir novas oportunidades.",
   "nav": {
     "home": "Início",
     "about": "Sobre",

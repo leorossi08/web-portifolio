@@ -1,55 +1,62 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-
-const projects = [
+// Dados estáticos dos projetos (que não mudam com o idioma)
+const projectsData = [
   {
     id: 1,
-    title: "Hyundai - Smart Factory Innovation",
-    description:
-      "Developed predictive Machine Learning models for anomaly detection, contributing to preventive maintenance.",
-    image: "/projects/project1.jpg", 
+    image: "/projects/project1.jpg",
     tags: ["Python", "Machine Learning", "Scikit-learn", "AI"],
   },
   {
     id: 2,
-    title: "Brazilian Championship Analytics",
-    description:
-      "Interactive dashboard visualizing ball possession, passes, and counterattacks from the Brazilian Championship.",
-    image: "/projects/project2.png", 
+    image: "/projects/project2.png",
     tags: ["Python", "Pandas", "Streamlit", "Data Viz"],
     githubUrl: "https://github.com/leorossi08/brazilian-championship-data-analysis",
   },
   {
     id: 3,
-    title: "Cati Jr. - Commercial Member",
-    description:
-      "Experience in leading projects using agile methodologies, with direct involvement in client relations, requirements gathering and documentation.",
-    image: "/projects/project3.png", 
+    image: "/projects/project3.png",
     tags: ["Agile Method", "Management", "Product Owner"],
   },
   {
     id: 4,
-    title: "BlockBuster CRUD Simulation",
-    description:
-      "A simulated CRUD application for a movie rental service, showcasing full-stack development skills.",
     image: "/projects/project4.png",
     tags: ["Java", "SpringBoot", "HTML", "CSS", "MySQL", "API"],
-    githubUrl: "https://github.com/leorossi08/BlockbusterCRUD-SpringBoot"
+    githubUrl: "https://github.com/leorossi08/BlockbusterCRUD-SpringBoot",
   },
   {
     id: 5,
-    title: "Rossi Prunning Technology",
-    description:
-      "Developed a web page for a family business, showecasing services and products. A update with react is coming soon.",
     image: "/projects/project5.jpg",
     tags: ["HTML", "CSS"],
-  }
-  
+  },
+  {
+    id: 6,
+    image: "/projects/project6.png",
+    tags: ["React", "Tailwind CSS", "JavaScript"],
+    githubUrl: "https://github.com/leorossi08/web-portifolio",
+  },
 ];
 
+
 export const ProjectsSection = () => {
-    const { t } = useTranslation();
+  const { t } = useTranslation();
+  
+  // Busca a lista de projetos traduzidos do arquivo JSON
+  const translatedProjects = t('projectList', { returnObjects: true });
+
+  // Combina os dados estáticos com os textos traduzidos
+  const projects = projectsData.map((project, index) => {
+    // Garante que existe uma tradução correspondente antes de combinar
+    if (translatedProjects[index]) {
+      return {
+        ...project, // Dados estáticos: id, image, tags, githubUrl
+        ...translatedProjects[index], // Dados traduzidos: title, description
+      };
+    }
+    return project; // Retorna o projeto apenas com dados estáticos se não houver tradução
+  });
+
 
   return (
     <section id="projects" className="py-24 px-4 relative">
@@ -63,9 +70,9 @@ export const ProjectsSection = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, key) => (
+          {projects.map((project) => (
             <div
-              key={key}
+              key={project.id}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
               <div className="h-48 overflow-hidden">
@@ -94,8 +101,6 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    {/* --- Conditional Rendering Logic --- */}
-                    {/* This link will only appear if project.demoUrl exists */}
                     {project.demoUrl && (
                       <a
                         href={project.demoUrl}
@@ -106,7 +111,6 @@ export const ProjectsSection = () => {
                         <ExternalLink size={20} />
                       </a>
                     )}
-                    {/* This link will only appear if project.githubUrl exists */}
                     {project.githubUrl && (
                       <a
                         href={project.githubUrl}
@@ -117,7 +121,6 @@ export const ProjectsSection = () => {
                         <Github size={20} />
                       </a>
                     )}
-                    {/* --- End of Conditional Rendering --- */}
                   </div>
                 </div>
               </div>
@@ -126,7 +129,6 @@ export const ProjectsSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          {/* Updated link to your GitHub profile */}
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"

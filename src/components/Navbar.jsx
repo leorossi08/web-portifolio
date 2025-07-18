@@ -32,7 +32,7 @@ export const Navbar = () => {
     <nav
       className={cn(
         "fixed w-full z-40 transition-all duration-300",
-        isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-sm" : "py-5"
+        isScrolled ? "py-3 bg-background shadow-sm" : "py-5"
       )}
     >
       <div className="container flex items-center justify-between">
@@ -75,7 +75,7 @@ export const Navbar = () => {
         {/* Mobile Menu */}
         <div
           className={cn(
-            "fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center",
+            "fixed inset-0 bg-background z-40 flex flex-col items-center justify-center",
             "transition-transform duration-300 ease-in-out md:hidden",
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           )}

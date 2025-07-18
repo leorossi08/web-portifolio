@@ -23,7 +23,7 @@
   "projectList": [
     {
       "id": 1,
-      "title": "Hyundai - Inovação na Smart Factory",
+      "title": "Hyundai - Smart Factory Innovation",
       "description": "Desenvolvi modelos preditivos de Machine Learning para detecção de anomalias, contribuindo para a manutenção preditiva.",
       "tags": ["Python", "Machine Learning", "Scikit-learn", "IA"]
     },

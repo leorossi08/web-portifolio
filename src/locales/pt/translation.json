@@ -47,17 +47,17 @@
     },
     {
       "id": 5,
-      "title": "Website de Empresa Familiar",
-      "description": "Desenvolvi uma página web para uma empresa familiar, apresentando serviços e produtos. Uma atualização com React está a caminho.",
+      "title": "Rossi Tecnologia em Podas",
+      "description": "Desenvolvimento Web para uma empresa familiar, apresentando serviços e produtos e integração de API para recebimento de emails.",
       "image": "/projects/project5.jpg",
-      "tags": ["HTML", "CSS"]
+      "tags": ["HTML", "CSS", "API", "JavaScript"]
     },
     {
       "id": 6,
       "title": "Site de Portfólio",
       "description": "Literalmente o site que você está vendo agora, construído com React e Tailwind CSS.",
       "image": "/projects/project6.png",
-      "tags": ["React", "Tailwind CSS", "JavaScript"],
+      "tags": ["React", "CSS", "JavaScript"],
       "githubUrl": "https://github.com/leorossi08/web-portifolio"
     }
   ],

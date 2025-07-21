@@ -47,17 +47,17 @@
     },
     {
       "id": 5,
-      "title": "Family Business Website",
-      "description": "Developed a web page for a family business, showcasing services and products. An update with React is coming soon.",
+      "title": "Rossi Prunning Technology",
+      "description": "Developed a web page for a family business, showcasing services and products. Also had the use of email API integration.",
       "image": "/projects/project5.jpg",
-      "tags": ["HTML", "CSS"]
+      "tags": ["HTML", "CSS", "API", "JavaScript"]
     },
     {
       "id": 6,
       "title": "Portfolio Website",
       "description": "Literally the website you are currently viewing, built with React and Tailwind CSS.",
       "image": "/projects/project6.png",
-      "tags": ["React", "Tailwind CSS", "JavaScript"],
+      "tags": ["React", "CSS", "JavaScript"],
       "githubUrl": "https://github.com/leorossi08/web-portifolio"
     }
   ],

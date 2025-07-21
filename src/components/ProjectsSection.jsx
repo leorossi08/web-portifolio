@@ -11,7 +11,7 @@ const projectsData = [
   {
     id: 2,
     image: "/projects/project2.png",
-    tags: ["Python", "Pandas", "Streamlit", "Data Viz"],
+    tags: ["Python", "Pandas", "Streamlit", "Data Visualization"],
     githubUrl: "https://github.com/leorossi08/brazilian-championship-data-analysis",
   },
   {
@@ -28,12 +28,14 @@ const projectsData = [
   {
     id: 5,
     image: "/projects/project5.jpg",
-    tags: ["HTML", "CSS"],
+    tags: ["HTML", "CSS", "API", "JavaScript"],
+    demoUrl: "https://rossipodas.com.br",
+    githubUrl: "https://github.com/leorossi08/web-rossi-tecnologia-em-podas",
   },
   {
     id: 6,
     image: "/projects/project6.png",
-    tags: ["React", "Tailwind CSS", "JavaScript"],
+    tags: ["React", "CSS", "JavaScript"],
     githubUrl: "https://github.com/leorossi08/web-portifolio",
   },
 ];

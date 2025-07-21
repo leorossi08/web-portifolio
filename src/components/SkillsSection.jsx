@@ -9,8 +9,6 @@ const skills = [
   { name: "Pandas", category: "Data Science & AI" },
   { name: "Scikit-learn", category: "Data Science & AI" },
   { name: "PyTorch", category: "Data Science & AI" },
-  { name: "NLP / LLMs", category: "Data Science & AI" },
-  { name: "ETL", category: "Data Science & AI" },
 
   // Backend Development
   { name: "Java", category: "Backend Development" },
@@ -33,7 +31,6 @@ const skills = [
   { name: "CSS", category: "Frontend Development" },
   { name: "JavaScript", category: "Frontend Development" },
   { name: "React", category: "Frontend Development" },
-  { name: "Tailwind CSS", category: "Frontend Development" },
 
 ];
 

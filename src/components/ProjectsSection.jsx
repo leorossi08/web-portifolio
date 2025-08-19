@@ -38,6 +38,11 @@ const projectsData = [
     tags: ["React", "CSS", "JavaScript"],
     githubUrl: "https://github.com/leorossi08/web-portifolio",
   },
+  {
+    id: 7,
+    image: "/projects/project7.png",
+    tags: ["AWS Lambda", "API Gateway", "Glue", "Power Automate", "Rest API", "Python"],
+  }
 ];
 
 

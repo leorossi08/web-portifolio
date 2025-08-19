@@ -8,7 +8,7 @@
   "aboutMe": "Sobre Mim",
   "aboutTitle": "Um Pouco da Minha Jornada",
   "aboutBio1": "Construí minha base profissional na Cati Jr., liderando projetos de software com metodologias ágeis, desde o contato com o cliente até o desenvolvimento final. Essa experiência foi muito gratificante, pois contribuí para projetos que representaram até 35% da receita da empresa. A partir disso, meu foco evoluiu para a ciência de dados. Aprofundei essa paixão em um grupo de estudos de ciência de dados na UFSCar focado em PNL e como pesquisador em iniciação científica na USP, onde apliquei análise de dados para prever necessidades estruturais em túneis.",
-  "aboutBio2": "Essa jornada culminou em um estágio de verão na equipe de Inovação da Smart Factory da Hyundai. Nesse ambiente dinâmico, não apenas apliquei minhas habilidades técnicas desenvolvendo modelos preditivos de IA e Machine Learning para detecção de anomalias, mas também aprimorei habilidades interpessoais cruciais, como falar em público e trabalhar em equipe. Olhando para o futuro, estou animado para me juntar à equipe de Automação do BTG Pactual, onde pretendo desenvolver novas competências e contribuir para projetos inovadores no setor de fintech.",
+  "aboutBio2": "Essa jornada culminou em um estágio de verão na equipe de Inovação da Smart Factory da Hyundai. Nesse ambiente dinâmico, não apenas apliquei minhas habilidades técnicas desenvolvendo modelos preditivos de IA e Machine Learning para detecção de anomalias, mas também aprimorei habilidades interpessoais cruciais, como falar em público e trabalhar em equipe. Agora, sou integrante da equipe de Automação do BTG Pactual, como um estagiário de short job, onde já estou contribuindo e assumindo projetos, enquanto aprendo novas tecnologias.",
   "getInTouch": "Entre em Contato",
   "downloadCv": "Baixar Currículo",
   "softwareEngineering": "Engenharia de Software",
@@ -59,6 +59,13 @@
       "image": "/projects/project6.png",
       "tags": ["React", "CSS", "JavaScript"],
       "githubUrl": "https://github.com/leorossi08/web-portifolio"
+    },
+    {
+      "id": 7,
+      "title": "BTG Pactual - Automation Intern",
+      "description": "Atuando na automação de processos e no desenvolvimento de soluções para otimização da eficiência operacional.",
+      "image": "/projects/project7.png",
+      "tags": ["AWS Lambda", "API Gateway", "Glue", "Power Automate", "Rest API", "Python"]
     }
   ],
   "checkGithub": "Veja meu Github",

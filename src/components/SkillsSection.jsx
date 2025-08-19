@@ -16,15 +16,18 @@ const skills = [
   { name: "Django", category: "Backend Development" },
   { name: "RESTful APIs", category: "Backend Development" },
   { name: "Node.js", category: "Backend Development" },
+  { name: "Git/GitHub", category: "Backend Development"},
 
   // Databases
-  { name: "SQL", category: "Data Science & AI" },
+  { name: "AWS Glue Database", category: "Data Science & AI" },
   { name: "PostgreSQL", category: "Data Science & AI" },
   { name: "MySQL", category: "Data Science & AI" },
 
-  // Tools & Platforms
-  { name: "Git/GitHub/GitLab", category: "Tools & Platforms" },
-  { name: "Docker", category: "Tools & Platforms" },
+  // Automation & Cloud
+  { name: "Docker", category: "Automation & Cloud" },
+  {name: "AWS Lambda", category: "Automation & Cloud" },
+  { name: "AWS API Gateway", category: "Automation & Cloud" },
+  { name: "Power Automate", category: "Automation & Cloud" },
 
   // Frontend Development
   { name: "HTML", category: "Frontend Development" },
@@ -40,7 +43,7 @@ const categories = [
   "Data Science & AI",
   "Backend Development",
   "Frontend Development",
-  "Tools & Platforms",
+  "Automation & Cloud",
 ];
 
 export const SkillsSection = () => {

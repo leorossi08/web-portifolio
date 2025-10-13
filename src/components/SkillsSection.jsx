@@ -19,7 +19,7 @@ const skills = [
   { name: "Git/GitHub", category: "Backend Development"},
 
   // Databases
-  { name: "AWS Glue Database", category: "Data Science & AI" },
+  { name: "AWS Athena", category: "Data Science & AI" },
   { name: "PostgreSQL", category: "Data Science & AI" },
   { name: "MySQL", category: "Data Science & AI" },
 

@@ -2,7 +2,16 @@ import { Briefcase, Code, Database } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export const AboutSection = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const cvFile =
+    i18n.language === "en"
+      ? "/LeonardoRossi_english.pdf"
+      : "/LeonardoRossi.pdf";
+  const cvDownloadName =
+    i18n.language === "en"
+      ? "LeonardoRossi_English.pdf"
+      : "LeonardoRossi.pdf";
 
   return (
     <section id="about" className="py-24 px-4 relative">
@@ -35,8 +44,8 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="/LeonardoRossi.pdf"
-                download="LeonardoRossi_CV.pdf"
+                href={cvFile}
+                download={cvDownloadName}
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 {t('downloadCv')}

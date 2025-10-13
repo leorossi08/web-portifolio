@@ -2,13 +2,13 @@
   "greeting": "Hi, I'm",
   "name": "Leonardo",
   "lastName": "Rossi",
-  "description": "I am a Computer Engineering student at UFSCar driven by a passion for software development, automation, and data science. I apply my skills in software engineering and solving complex real-world challenges, especially through Data Science perspectives. My ambition and eager to learn lead me to embrace new technologies and challenges where I can contribute and grow. Check some of my work!",
+  "description": "I am a Computer Engineering student at UFSCar driven by a passion for software development, automation, and data science. I apply my skills in software engineering and solving complex real-world challenges, especially through Data Science perspectives. My ambition and eagerness to learn lead me to embrace new technologies and challenges where I can contribute and grow. Check some of my work!",
   "viewWork": "View My Work",
   "scroll": "Scroll",
   "aboutMe": "About Me",
   "aboutTitle": "A Little of My Journey",
-  "aboutBio1": "I built my professional foundation at Cati Jr., leading agile software projects from client engagement to final development. This experience was highly rewarding, as I contributed to projects accounting for up to 35% of the company's revenue. Building on this, my focus evolved towards data science. I deepened this passion as part of a data science group at UFSCar exploring NLP and as a scientific researcher for USP, where I applied data analysis to predict structural needs in tunnels",
-  "aboutBio2": "This journey culminated in a summer internship with Hyundai's Smart Factory Innovation team. In that dynamic setting, I not only applied my technical skills by developing predictive AI and Machine Learning models for anomaly detection , but also significantly enhanced crucial soft skills, including public speaking and teamwork. Now, as a short job intern at BTG Pactual Automation team, I am already contributing and taking important projects, while learning new technologies.",
+  "aboutBio1": "I built my professional foundation at Cati Jr., leading agile software projects from client engagement to final development. This experience was highly rewarding, as I contributed to projects accounting for up to 35% of the company's revenue. Building on this, my focus evolved towards data science. I deepened this passion as part of a data science group at UFSCar exploring NLP and as a scientific researcher for USP, where I applied data analysis to predict structural needs in tunnels.",
+  "aboutBio2": "This journey culminated in a summer internship with Hyundai's Smart Factory Innovation team. In that dynamic setting, I not only applied my technical skills by developing predictive AI and Machine Learning models for anomaly detection , but also significantly enhanced crucial soft skills, including public speaking and teamwork. Now, as a intern at BTG Pactual Automation team, I am contributing to eficciency gain in the bank and taking on important projects, while learning new technologies.",
   "getInTouch": "Get In Touch",
   "downloadCv": "Download CV",
   "softwareEngineering": "Software Engineering",
@@ -37,7 +37,7 @@
       "id": 3,
       "title": "Cati Jr. - Commercial Member",
       "description": "Experience in leading projects using agile methodologies, with direct involvement in client relations, requirements gathering and documentation.",
-      "tags": ["Agile Method", "Management", "Product Owner"]
+      "tags": ["Agile Methods", "Management", "Product Owner"]
     },
     {
       "id": 4,
@@ -47,7 +47,7 @@
     },
     {
       "id": 5,
-      "title": "Rossi Prunning Technology",
+      "title": "Rossi Pruning Technology",
       "description": "Developed a web page for a family business, showcasing services and products. Also had the use of email API integration.",
       "image": "/projects/project5.jpg",
       "tags": ["HTML", "CSS", "API", "JavaScript"]
